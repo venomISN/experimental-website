@@ -1,0 +1,15 @@
+body{
+	background-color: black;
+}
+h1 {
+	font-size: 30px;
+	color : #581845;
+	}
+h2 {
+	font-size: 20px;
+	color:#FFC300; 
+	}
+.big{
+	font-family: sans-serif;
+	font-size: 25px;
+	}
