@@ -15,10 +15,14 @@ body{
 }
 .centered{
 	position: absolute;
-	top: 20%;
+	top: 10%;
 	left: 50%;
 	transform: translate(-50%, -50%);
-	font-size: 5vw;
+}
+.header{
+		font-family: 'Lobster', cursive;
+		font-size: 50px;
+		width: 50%;
 }
 .button{
 	  border: none;
@@ -28,6 +32,7 @@ body{
 	  text-decoration: none;
 	  display: inline-block;
 	  font-size: 2vw;
+	  /*width: 20%;*/
 	  transition-duration: 0.4s;
 	  cursor: pointer;
 	  font-family: 'Imbue', serif;
@@ -48,6 +53,7 @@ body{
 	color: black;
 	border: 2px solid #E2ECF5;
 }
+
 .button2{
 	position: absolute;
 	top: 20%;
@@ -76,6 +82,7 @@ body{
 	background-color: white;
 	color: #FF4433;
 }
+
 
 /*header properties*/
 
