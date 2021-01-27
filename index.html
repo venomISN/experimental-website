@@ -16,8 +16,14 @@
 	<header class="container">
 		<img src="sbgff.png">
 		<!-- <img src="logo.png" id="logo" class="centered fit" sizes="100vw"> -->
-		<h1 class="header centered" sizes="100vw">Indhra Swaroop Naik</h1>
-		<button class="button button1">dark mode</button>
+		<h1 class="header centered">Indhra Swaroop Naik</h1>
+		<button onclick="myFunction()" class="button button1">dark mode</button>
+		<script>
+			function myFunction() {
+   			var element = document.body;
+   			element.classList.toggle("dark-mode");
+			}
+		</script>
 		<button class="button button2">Home</button>
 		<button class="button button3">Contact</button>
 	</header>
